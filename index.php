@@ -8,7 +8,7 @@
             <header
                 class="left-section d-flex flex-column align-items-center justify-content-between position-sticky top-0 left-0 ">
                 <div class="left-top d-flex flex-column align-items-center">
-                    <a href="#" class="logo text-center m-auto">GR</a>
+                    <a href="index.php" class="logo text-center m-auto">GR</a>
                     <p class="full-name text-center">Gehendra Chaudhary</p>
                     <div class="hero-social d-flex justify-content-between">
                         <ul class="p-0 m-0 d-flex">
@@ -126,7 +126,8 @@
                                     </div>
                                 </div>
                                 <div class="about-btn d-flex gap-3 justify-content-center justify-content-lg-start">
-                                    <a href="#" class="primary-btn d-block">Download CV</a>
+                                    <a href="images/Narayan-Chaudhary-cv (updated).pdf"
+                                        class="primary-btn d-block">Download CV</a>
                                     <a href="#contact" class="secondary-btn hire-btn d-block">Hire me</a>
                                 </div>
                             </div>
@@ -214,7 +215,7 @@
                         <span class="subtitle">What I Can Do for You</span>
                         <div class="row row-gap-4 services-wrapper">
                             <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" type="_blank">
                                     <div class="service-card h-100 text-center text-sm-start">
                                         <i class="bi bi-laptop"></i>
                                         <h3 class="my-3">Web Design</h3>
@@ -224,7 +225,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" type="_blank">
                                     <div class="service-card h-100 text-center text-sm-start">
                                         <i class="bi bi-diamond"></i>
                                         <h3 class="my-3">Creative Design</h3>
@@ -234,7 +235,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" type="_blank">
                                     <div class="service-card h-100 text-center text-sm-start">
                                         <i class="bi bi-display"></i>
                                         <h3 class="my-3">Responsive Design</h3>
@@ -245,7 +246,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" type="_blank">
                                     <div class="service-card h-100 text-center text-sm-start">
                                         <i class="bi bi-terminal"></i>
                                         <h3 class="my-3">Web Development</h3>
@@ -256,7 +257,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" type="_blank">
                                     <div class="service-card h-100 text-center text-sm-start">
                                         <i class="bi bi-speedometer2"></i>
                                         <h3 class="my-3">SEO Friendly</h3>
@@ -267,7 +268,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" type="_blank">
                                     <div class="service-card h-100 text-center text-sm-start">
                                         <i class="bi bi-lightning-fill"></i>
                                         <h3 class="my-3">Performance Optimization</h3>
@@ -355,7 +356,8 @@
                                         <label for="message">Message</label>
                                         <textarea name="message" id="message" placeholder="Say something..."></textarea>
                                     </div>
-                                    <a href="#" class="primary-btn d-flex mx-auto mx-lg-0 submit-btn">Submit</a>
+                                    <a href="javascript:void(0)" type="_blank"
+                                        class="primary-btn d-flex mx-auto mx-lg-0 submit-btn">Submit</a>
                                 </div>
                             </div>
                         </form>

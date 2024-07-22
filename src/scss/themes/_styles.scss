@@ -1,102 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    font-family: $montserrat-font;
-    font-weight: 800;
-    font-size: $h1-font-size;
-    color: $global-white;
-    margin: 0;
-}
-h2{
-    font-family: $montserrat-font;
-    font-weight: 800;
-    font-size: $h2-font-size;
-    color: $black-75;
-}
-h3{
-    font-family: $montserrat-font;
-    font-weight: 700;
-    font-size: $h3-font-size;
-    margin: 0;
-    color: $black-75;
-}
-p{
-    font-size: $paragraph-size;
-    font-family: $poppins-regular;
-    color: $black-50;
-    margin: 0;
 
+h1 {
+  font-family: $montserrat-font;
+  font-weight: 800;
+  font-size: $h1-font-size;
+  color: $global-white;
+  margin: 0;
 }
-a{
-    text-decoration: none;
+
+h2 {
+  font-family: $montserrat-font;
+  font-weight: 800;
+  font-size: $h2-font-size;
+  color: $black-75;
 }
-li{
-    list-style: none;
+
+h3 {
+  font-family: $montserrat-font;
+  font-weight: 700;
+  font-size: $h3-font-size;
+  margin: 0;
+  color: $black-75;
 }
-img{
-    width: 100%;
+
+p {
+  font-size: $paragraph-size;
+  font-family: $poppins-regular;
+  color: $black-50;
+  margin: 0;
 }
-.custom-container{
-    padding: 0 20px;
+
+a {
+  text-decoration: none;
 }
-.section-pad{
-    padding-top: 80px;
-    padding-bottom: 80px;
+
+li {
+  list-style: none;
 }
-.primary-btn{
-    padding: 8px 26px;
-    background-color: $black-75;
-    font-size: 15px;
-    color: $global-white;
-    display: block;
-    max-width: fit-content;
-    font-family: $poppins-regular;
-    border-radius: 6px;
-    transition: 0.3s all ease;
-    border: 1px solid transparent;
-    &:hover{
-        background-color: transparent;
-        border: 1px solid $black-75;
-        color: $black-75;
-        transform: translateY(-5px);
-    }
+
+img {
+  width: 100%;
 }
-.secondary-btn{
-    padding: 8px 26px;
-    border: 1px solid $global-white;
-    font-size: 15px;
-    color: $global-white;
-    font-family: $poppins-regular;
-    border-radius: 6px;
-    width: fit-content;
-    transition: 0.3s all ease;
-    &:hover{
-        background-color: $global-white;
-        border-color: $global-white;
-        color: $black-75;
-        transform: translateY(-5px);
-    }
+
+.custom-container {
+  padding: 0 20px;
 }
-.subtitle{
-    font-family: $poppins-regular;
-    font-size: 14px;
-    color: $black-25;
-    letter-spacing: 2px;
+
+.section-pad {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
+
+.primary-btn {
+  padding: 8px 26px;
+  background-color: $black-75;
+  font-size: 15px;
+  color: $global-white;
+  display: block;
+  max-width: fit-content;
+  font-family: $poppins-regular;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  border: 1px solid transparent;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid $black-75;
+    color: $black-75;
+    transform: translateY(-5px);
+  }
+}
+
+.secondary-btn {
+  padding: 8px 26px;
+  border: 1px solid $global-white;
+  font-size: 15px;
+  color: $global-white;
+  font-family: $poppins-regular;
+  border-radius: 6px;
+  width: fit-content;
+  transition: 0.3s all ease;
+
+  &:hover {
+    background-color: $global-white;
+    border-color: $global-white;
+    color: $black-75;
+    transform: translateY(-5px);
+  }
+}
+
+.subtitle {
+  font-family: $poppins-regular;
+  font-size: 14px;
+  color: $black-25;
+  letter-spacing: 2px;
+}
+
 @media only screen and (max-width: 576px) {
-    h1{
-        font-size: 56px;
-    }
-    h2{
-        font-size: 36px;
-    }
-    h3{
-        font-size: 16px;
-    }
-    p{
-        font-size: 14px;
-    }
+  h1 {
+    font-size: 56px;
+  }
 
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }

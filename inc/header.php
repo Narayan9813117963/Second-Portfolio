@@ -7,7 +7,7 @@
     <meta name="description" content="Gehendra's portfolio showcasing creative design and front-end development skills. Explore projects, resume, and contact information.">
     <title>Second Portfolio</title>
     <link rel="icon" href="../images/site-icon/favicon.ico">
-    <link rel="stylesheet" href="dist/css/vendor.css">
-    <link rel="stylesheet" href="dist/css/theme.css">
+    <link rel="stylesheet" href="dist/css/vendor.min.css">
+    <link rel="stylesheet" href="dist/css/theme.min.css">
 </head>
 <body  data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">

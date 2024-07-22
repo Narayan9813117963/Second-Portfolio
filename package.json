@@ -13,7 +13,7 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build-css": "node-sass src/scss/theme.scss -o dist/css/ && node-sass src/scss/vendor.scss -o dist/css/",
+		"build-css": "node-sass src/scss/theme.scss -o dist/css/ && node-sass src/scss/vendor.scss -o dist/css/ && node-sass src/scss/vendor.scss dist/css/vendor.min.css --output-style compressed && node-sass src/scss/theme.scss dist/css/theme.min.css --output-style compressed",
 		"watch-css": "nodemon -e scss -x \"npm run build-css\""
 	},
 	"devDependencies": {

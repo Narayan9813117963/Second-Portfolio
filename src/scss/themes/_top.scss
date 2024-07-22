@@ -1,10 +1,11 @@
-.loader{
+.loader {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
-    
+    transform: translate(-50%, -50%);
+
 }
+
 .ripple {
     width: 75px;
     height: 75px;
@@ -12,35 +13,40 @@
     border: 5px solid $black-75;
     transform: translate(50%);
     animation: 1s ripple ease-out infinite;
-  }
-  
-  @keyframes ripple {
+}
+
+@keyframes ripple {
     from {
-      transform: scale(0);
-      opacity: 1;
+        transform: scale(0);
+        opacity: 1;
     }
-  
+
     to {
-      transform: scale(1);
-      opacity: 0;
+        transform: scale(1);
+        opacity: 0;
     }
-  }
+}
+
 .main-container {
     display: none;
+
     .toggler-btn {
         top: 20px;
         left: 20px;
         width: fit-content;
         height: fit-content;
-        .bar-icon-bg{
+
+        .bar-icon-bg {
             padding: 30px;
             background-color: $black-100;
             border-radius: 50%;
+
             .bar-icon {
                 width: 28px;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50% , -50%);
+                transform: translate(-50%, -50%);
+
                 span {
                     height: 2px;
                     background-color: $global-white;
@@ -48,36 +54,40 @@
             }
         }
 
-        .offcanvas{
-            .hidden-nav-logo{
-                .logo{
+        .offcanvas {
+            .hidden-nav-logo {
+                .logo {
                     font-size: 36px;
                     font-family: "montserrat";
                     font-weight: 800;
                     color: #3D3D3D;
                 }
             }
-            .offcanvas-contents{
-                ul{
-                    li{
-                        a{
+
+            .offcanvas-contents {
+                ul {
+                    li {
+                        a {
                             color: $black-75;
                             font-family: $poppins-regular;
                             font-size: 18px;
                             border-radius: 5px;
-                            &:hover{
+
+                            &:hover {
                                 background-color: $offcanvas-hover;
                             }
                         }
                     }
                 }
             }
-          }
+        }
     }
-    .row{
+
+    .row {
         width: 100% !important;
         margin: auto;
     }
+
     .left-section {
         background-color: rgb(36, 36, 36);
         height: 100vh;
@@ -106,6 +116,7 @@
                             border-radius: 50%;
                             background-color: #6f6f6f8f;
                             transition: 0.3s all ease;
+
                             i {
                                 position: absolute;
                                 top: 50%;
@@ -113,7 +124,8 @@
                                 transform: translate(-50%, -50%);
                                 color: $global-white;
                             }
-                            &:hover{
+
+                            &:hover {
                                 background-color: rgba(44, 44, 44, 0.842)8f;
                             }
                         }
@@ -143,7 +155,8 @@
                             }
                         }
 
-                        &.active, &:hover {
+                        &.active,
+                        &:hover {
                             color: $global-white;
                             transform: translateX(5px);
 
@@ -412,6 +425,7 @@
         .contact {
             form {
                 margin-top: 46px;
+
                 .row {
                     row-gap: 36px;
                 }
@@ -431,6 +445,7 @@
                     font-family: $poppins-regular;
                     border-radius: 5px;
                     border: 1px solid transparent;
+
                     &::placeholder {
                         font-size: 14px;
                         color: $inactive;
@@ -527,8 +542,9 @@
     }
 
 }
+
 @media only screen and (max-width: 576px) {
-    .hero-text{
+    .hero-text {
         padding: 0 20px !important;
     }
 }
