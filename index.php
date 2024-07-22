@@ -85,7 +85,7 @@
                 <section class="hero-sec position-relative" id="home">
                     <div class="hero-overlay position-absolute left-0 top-0 w-100 h-100"></div>
                     <figure class="hero-bg h-100">
-                        <img src="images/hero-bg.png" alt="hero-bg">
+                        <img src="images/hero-bg.webp" alt="hero-bg">
                     </figure>
                     <div class="hero-text position-absolute w-100 d-flex flex-column align-items-center text-center">
                         <h1>Hello, I am Gehendra</h1>
