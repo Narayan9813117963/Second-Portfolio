@@ -1,4 +1,32 @@
+.loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+.ripple {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px solid $black-75;
+    transform: translate(50%);
+    animation: 1s ripple ease-out infinite;
+  }
+  
+  @keyframes ripple {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
 .main-container {
+    display: none;
     .toggler-btn {
         top: 20px;
         left: 20px;
@@ -65,7 +93,7 @@
 
             .full-name {
                 color: #d2d2d2;
-                padding: 12px 0;
+                padding-bottom: 20px;
             }
 
             .hero-social {
@@ -402,7 +430,7 @@
                     padding: 0 16px;
                     font-family: $poppins-regular;
                     border-radius: 5px;
-
+                    border: 1px solid transparent;
                     &::placeholder {
                         font-size: 14px;
                         color: $inactive;
@@ -410,6 +438,7 @@
 
                     &:focus {
                         outline: none;
+                        border: 1px solid #dbdbdb;
                     }
                 }
 

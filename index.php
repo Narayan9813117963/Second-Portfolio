@@ -1,8 +1,11 @@
 <?php include('inc/header.php'); ?>
-<div class="main-container">
+<div class="loader">
+    <div class="ripple"></div>
+</div>
+<div class="main-container content">
     <div class="row">
         <div class="col-lg-3 d-none d-lg-block p-0">
-            <div
+            <header
                 class="left-section d-flex flex-column align-items-center justify-content-between position-sticky top-0 left-0 ">
                 <div class="left-top d-flex flex-column align-items-center">
                     <a href="#" class="logo text-center m-auto">GR</a>
@@ -26,7 +29,7 @@
                     <div class="navigation d-lg-flex align-items-center justify-content-center" id="main-nav">
                         <ul class="p-0 m-0 d-flex flex-column">
                             <li>
-                                <a href="#home" class="d-flex align-items-center"><i><svg width="26" height="24"
+                                <a href="#home" class="d-flex align-items-center active"><i><svg width="26" height="24"
                                             viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M21.1665 23.5H4.83317C4.18884 23.5 3.6665 22.9777 3.6665 22.3333V11.8333H0.166504L12.215 0.880097C12.66 0.475555 13.3397 0.475555 13.7847 0.880097L25.8332 11.8333H22.3332V22.3333C22.3332 22.9777 21.8109 23.5 21.1665 23.5ZM14.1665 21.1667H19.9998V9.68371L12.9998 3.32006L5.99984 9.68371V21.1667H11.8332V14.1667H14.1665V21.1667Z"
@@ -74,8 +77,8 @@
                         </ul>
                     </div>
                 </div>
-                <p class="left-sec-footer">Kalvin © 2021. All Right Reserved, </p>
-            </div>
+                <p class="left-sec-footer">GR © 2024. All Right Reserved, </p>
+            </header>
         </div>
         <div class="col-lg-9 p-0">
             <div class="right-section">

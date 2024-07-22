@@ -11,5 +11,3 @@
 </head>
 
 <body  data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
-    <nav>
-    </nav>
