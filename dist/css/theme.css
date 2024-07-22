@@ -365,7 +365,7 @@ img {
       .main-container .right-section .contact form input:focus,
       .main-container .right-section .contact form textarea:focus {
         outline: none;
-        border: 1px solid #dbdbdb; }
+        border: 1px solid #dedede; }
     .main-container .right-section .contact form textarea {
       height: 176px;
       padding: 16px 20px;

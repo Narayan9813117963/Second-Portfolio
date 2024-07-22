@@ -3,7 +3,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .ripple {
@@ -453,7 +452,7 @@
 
                     &:focus {
                         outline: none;
-                        border: 1px solid #dbdbdb;
+                        border: 1px solid $input-focus;
                     }
                 }
 
