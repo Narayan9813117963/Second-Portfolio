@@ -13,16 +13,16 @@
                     <div class="hero-social d-flex justify-content-between">
                         <ul class="p-0 m-0 d-flex">
                             <li>
-                                <a href="#" class="position-relative d-block"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100013751371780" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-block"><i class="bi bi-behance"></i></a>
+                                <a href="https://www.behance.net/search/projects/web%20developer%20portfolio" class="d-flex align-items-center justify-content-center"><i class="bi bi-behance"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-block"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://api.whatsapp.com/send/?phone=%2B9779813117963&text&type=phone_number&app_absent=0" class="d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-block"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/narayan-chaudhary-2b9865258/" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

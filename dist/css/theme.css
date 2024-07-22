@@ -163,18 +163,16 @@ img {
     .main-container .left-section .left-top .hero-social ul {
       gap: 8px; }
       .main-container .left-section .left-top .hero-social ul li a {
-        padding: 18px;
+        width: 36px;
+        height: 36px;
         border-radius: 50%;
-        background-color: #6f6f6f8f;
+        background-color: #3D3D3D;
         transition: 0.3s all ease; }
         .main-container .left-section .left-top .hero-social ul li a i {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          font-size: 16px;
           color: #fff; }
         .main-container .left-section .left-top .hero-social ul li a:hover {
-          background-color: rgba(44, 44, 44, 0.842) 8f; }
+          background-color: #353535; }
     .main-container .left-section .navigation {
       margin-top: 60px; }
       .main-container .left-section .navigation ul {

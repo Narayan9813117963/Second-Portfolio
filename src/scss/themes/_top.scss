@@ -111,21 +111,19 @@
 
                     li {
                         a {
-                            padding: 18px;
+                            width: 36px;
+                            height: 36px;
                             border-radius: 50%;
-                            background-color: #6f6f6f8f;
+                            background-color: $black-75;
                             transition: 0.3s all ease;
 
                             i {
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
+                                font-size: 16px;
                                 color: $global-white;
                             }
 
                             &:hover {
-                                background-color: rgba(44, 44, 44, 0.842)8f;
+                                background-color: $social-icon-hover-bg;
                             }
                         }
                     }
